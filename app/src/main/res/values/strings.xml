@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">DesafioWebServices</string>
+    <string name="welcome">Welcome to the Marvel Comics</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="remember">Remember</string>
+    <string name="log_in">LOG IN</string>
+    <string name="create_account">Create account</string>
+    <string name="name">Name</string>
+    <string name="save">Save</string>
+    <string name="register">Register</string>
+    <string name="msg_invalid_email">Invalid email address</string>
+    <string name="field_required">%1$s is required</string>
+    <string name="error_loading_data">Erro ao carregar os dados</string>
+    <string name="error_api_call">Erro na chamada da Api</string>
+    <string name="comic_cover">Comic cover</string>
+    <string name="published">Published:</string>
+    <string name="price">Price:</string>
+    <string name="pages">Pages:</string>
+    <string name="comic_banner">Comic banner</string>
+    <string name="back">Back</string>
+    <string name="cover_transition_name">cover_%1$s</string>
+    <string name="password_invalid">Password must be at least 8 characters and contain both letters and digits</string>
+    <string name="spiderman_splash_screen_image">Spiderman Splash Screen Image</string>
+    <string name="marvel_logo">Marvel Logo</string>
+</resources>

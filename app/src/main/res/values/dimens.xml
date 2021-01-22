@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_quarter">4dp</dimen>
+    <dimen name="margin_half">8dp</dimen>
+    <dimen name="margin_default">16dp</dimen>
+    <dimen name="margin_default_quarter">20dp</dimen>
+    <dimen name="margin_double">32dp</dimen>
+
+    <dimen name="login_card_title_size">22sp</dimen>
+    <dimen name="login_card_corners_radius">15dp</dimen>
+    <dimen name="login_card_text_button_font_size">16sp</dimen>
+
+    <dimen name="register_icon_size">110dp</dimen>
+    <dimen name="register_title_height">70dp</dimen>
+
+    <dimen name="comics_issue_size">16sp</dimen>
+    <dimen name="comic_details_banner_height">320dp</dimen>
+    <dimen name="comic_details_cover_width">150dp</dimen>
+    <dimen name="comic_details_cover_min_height">225dp</dimen>
+    <dimen name="comic_details_title_size">24sp</dimen>
+</resources>

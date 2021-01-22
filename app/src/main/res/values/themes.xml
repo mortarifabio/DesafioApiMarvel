@@ -1,0 +1,132 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.DesafioWebServices" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/red</item>
+        <item name="colorPrimaryVariant">@color/dark_red</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/dark_blue</item>
+        <item name="colorSecondaryVariant">@color/medium_blue</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="LayoutDefault">
+        <item name="android:background">@color/dark_blue</item>
+    </style>
+
+    <style name="MainAppBar" parent="Widget.MaterialComponents.Toolbar.Primary">
+        <item name="android:paddingStart">@dimen/margin_default</item>
+    </style>
+
+    <style name="LoginCard" parent="Widget.MaterialComponents.CardView">
+        <item name="android:layout_margin">@dimen/margin_default</item>
+        <item name="shapeAppearance">@style/LoginCardShape</item>
+    </style>
+
+    <style name="LoginCardShape">
+        <item name="android:background">@color/dark_blue</item>
+        <item name="cornerSize">@dimen/login_card_corners_radius</item>
+    </style>
+
+    <style name="LoginCardTitle">
+        <item name="android:background">@drawable/bg_login_card_title</item>
+        <item name="android:paddingBottom">@dimen/margin_default_quarter</item>
+        <item name="android:paddingEnd">@dimen/margin_half</item>
+        <item name="android:paddingStart">@dimen/margin_half</item>
+        <item name="android:paddingTop">@dimen/margin_default_quarter</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/login_card_title_size</item>
+        <item name="cornerRadius">0dp</item>
+    </style>
+
+    <style name="LoginCardBody">
+        <item name="android:background">@drawable/bg_login_card_body</item>
+        <item name="android:paddingBottom">@dimen/margin_quarter</item>
+        <item name="android:paddingEnd">@dimen/margin_default</item>
+        <item name="android:paddingStart">@dimen/margin_default</item>
+        <item name="android:paddingTop">@dimen/margin_default</item>
+    </style>
+
+    <style name="TextInputLayoutDefault">
+        <item name="boxStrokeColor">@color/text_input_stroke</item>
+    </style>
+
+    <style name="EditTextDefault">
+        <item name="android:background">@color/white</item>
+        <item name="android:paddingEnd">0dp</item>
+        <item name="android:paddingStart">0dp</item>
+    </style>
+
+    <style name="CheckboxDefault">
+        <item name="buttonTint">@color/red</item>
+    </style>
+
+    <style name="TextButton" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/medium_blue</item>
+        <item name="android:textSize">@dimen/login_card_text_button_font_size</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="RegisterIcon">
+        <item name="android:background">@drawable/ic_register_bg</item>
+        <item name="android:paddingBottom">@dimen/margin_default_quarter</item>
+        <item name="android:paddingEnd">@dimen/margin_default_quarter</item>
+        <item name="android:paddingStart">@dimen/margin_default_quarter</item>
+        <item name="android:paddingTop">@dimen/margin_default</item>
+        <item name="android:src">@drawable/ic_register</item>
+    </style>
+
+    <style name="ComicsIssue">
+        <item name="android:layout_marginBottom">@dimen/margin_half</item>
+        <item name="android:layout_marginTop">@dimen/margin_quarter</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/comics_issue_size</item>
+    </style>
+
+    <style name="ButtonBack" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:minWidth">0dp</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
+    <style name="ComicDetailsBanner">
+        <item name="android:alpha">0.5</item>
+        <item name="android:paddingBottom">40dp</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
+    <style name="ComicDetailsCover">
+        <item name="android:background">@drawable/bg_comics_image</item>
+        <item name="android:layout_marginStart">@dimen/margin_default</item>
+        <item name="android:layout_marginBottom">@dimen/margin_default</item>
+        <item name="android:minHeight">@dimen/comic_details_cover_min_height</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
+    <style name="TextWhite">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="ComicDetailsTitle" parent="TextWhite">
+        <item name="android:layout_margin">@dimen/margin_default</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">@dimen/comic_details_title_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ComicLabel" parent="TextWhite">
+        <item name="android:layout_marginStart">@dimen/margin_default</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ComicValue" parent="TextWhite">
+        <item name="android:layout_marginStart">@dimen/margin_half</item>
+        <item name="android:layout_marginEnd">@dimen/margin_default</item>
+    </style>
+
+</resources>
